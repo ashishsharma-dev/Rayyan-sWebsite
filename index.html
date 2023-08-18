@@ -4,11 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Biography</title>
 </head>
 
-<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    #section-2,
+    #section-3,
+    #section-4 {
+        margin-top: 5rem !important;
+    }
+
+    .first-section {
+        /* width: 100vw; */
+        height: 100vh;
+        overflow: none;
+        background-image: url(images/image3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .imageBox img {
+        border-radius: 0.3rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-aos="fade-in">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-1">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-2">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-3">Link 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-4">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="section-1" class="first-section" data-aos="fade-in">
+        </section>
+        <section id="section-2" class="second-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 imageBox" data-aos="zoom-in">
+                        <img src="images/image1.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus? Mollitia
+                                deleniti cum tempore? Dignissimos et est consectetur excepturi quam cupiditate
+                                similique, dolorum a voluptatibus assumenda illum totam eum nihil officia, temporibus
+                                fuga officiis aspernatur autem dolore aperiam? Ipsum, recusandae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-3" class="third-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus? Mollitia
+                                deleniti cum tempore? Dignissimos et est consectetur excepturi quam cupiditate
+                                similique, dolorum a voluptatibus assumenda illum totam eum nihil officia, temporibus
+                                fuga officiis aspernatur autem dolore aperiam? Ipsum, recusandae?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 imageBox" data-aos="zoom-in">
+                        <img src="images/image2.jpeg" width="100%" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-4" class="fourth-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 imageBox" data-aos="zoom-in">
+                        <img src="images/image4.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus? Mollitia
+                                deleniti cum tempore? Dignissimos et est consectetur excepturi quam cupiditate
+                                similique, dolorum a voluptatibus assumenda illum totam eum nihil officia, temporibus
+                                fuga officiis aspernatur autem dolore aperiam? Ipsum, recusandae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-5" class="fifth-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus? Mollitia
+                                deleniti cum tempore? Dignissimos et est consectetur excepturi quam cupiditate
+                                similique, dolorum a voluptatibus assumenda illum totam eum nihil officia, temporibus
+                                fuga officiis aspernatur autem dolore aperiam? Ipsum, recusandae?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 imageBox" data-aos="zoom-in">
+                        <img src="images/image2.jpeg" width="100%" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-6" class="sixth-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 imageBox" data-aos="zoom-in">
+                        <img src="images/image4.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus? Mollitia
+                                deleniti cum tempore? Dignissimos et est consectetur excepturi quam cupiditate
+                                similique, dolorum a voluptatibus assumenda illum totam eum nihil officia, temporibus
+                                fuga officiis aspernatur autem dolore aperiam? Ipsum, recusandae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
