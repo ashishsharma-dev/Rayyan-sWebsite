@@ -36,6 +36,9 @@
     background-position: center;
     background-size: contain;
   }
+  .first-header {
+    padding-top: 0 !important;
+  }
 }
 
 .content {
@@ -68,6 +71,9 @@
     line-height: 2.2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .top-header {
+    padding-bottom: 0;
   }
 }
 
